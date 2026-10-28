@@ -20,6 +20,7 @@ quant_junior/
 pip install numpy pandas
 cd quant_junior
 python section1_fundamentals.py      # run one section
+python -c "import section1_fundamentals; section1_fundamentals.demo_collections()"      # run specific section.
 python run_all.py                    # or everything
 ```
 Always run from inside `quant_junior/` so `import quant_utils` works.
